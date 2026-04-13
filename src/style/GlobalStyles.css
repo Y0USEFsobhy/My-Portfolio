@@ -29,6 +29,7 @@ body{
     background: rgba(0, 0, 0, 0.4); /* semi-transparent */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Safari */
+  backdrop-filter: blur(10px);
 }
 nav a {
   color: white;
