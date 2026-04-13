@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* * {
+  outline: 1px solid rgb(1, 254, 136);
+} */
+body{
+  background-color: #060010;
+  overflow-x:hidden;
+    /* width: 100%; */
+    font-family: "Nunito", sans-serif;
+}
+/* section{
+  background-color: red;
+} */
+::selection {
+  background-color: #00bcd4;
+  color: white;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar{
+  background: transparent;
+}
+.navbar.scrolled{
+    background: rgba(0, 0, 0, 0.4); /* semi-transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  /* margin: 0 15px; */
+}
+
+nav a.active {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+}
+
+.animate-spin-slow {
+  animation: spin 4s linear infinite;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* background: rgb(12 74 110); */
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: rgba(0,0,0,0.4); */
+  background: white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* background: rgba(0,0,0,0.6); */
+  background:rgb(64, 102, 124) ;
+}
+
+/* input, textarea {
+  font-size: 16px;
+} */
