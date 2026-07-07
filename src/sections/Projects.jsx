@@ -7,6 +7,45 @@ function Projects() {
       className="lg:px-30 md:px-20 px-6 text-white flex flex-col gap-6 "
     >
       <h2 className="text-5xl mb-3">Projects</h2>
+        <BorderGlowProjects>
+        <div className="p-3 md:p-5  flex md:flex-row flex-col items-center gap-5 ">
+          <div className="md:w-1/2 w-full">
+            <img
+              loading="lazy"
+              className="rounded-md"
+              src="Shop.co.png"
+              alt="alt"
+            />
+          </div>
+          <div className="flex flex-col gap-5 md:mt-5 h-full md:w-1/2 w-full ">
+            <h1 className="md:text-3xl text-2xl">Shop.co e-commerce</h1>
+            <p>
+- Lightweight shop UI built with React and Vite.
+- Includes product pages, cart, checkout flow and utility components.
+- Uses TailwindCSS, Material UI, and Redux Toolkit for state.
+            </p>
+            <div className="flex gap-5">
+              <Button icon={"live"}>
+                <a
+                  href="https://y0usefsobhy.github.io/Shop.co/#/"
+                  target="_blank"
+                >
+                  Live demo
+                </a>
+              </Button>
+              <Button icon={"git"}>
+                <a
+                  href="https://github.com/Y0USEFsobhy/Shop.co"
+                  target="_blank"
+                >
+                  Repository
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </BorderGlowProjects>
+
       <BorderGlowProjects>
         <div className="p-3 md:p-5  flex md:flex-row flex-col items-center gap-5 ">
           <div className="md:w-1/2 w-full">
