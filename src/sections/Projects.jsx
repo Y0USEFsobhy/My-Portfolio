@@ -20,9 +20,7 @@ function Projects() {
           <div className="flex flex-col gap-5 md:mt-5 h-full md:w-1/2 w-full ">
             <h1 className="md:text-3xl text-2xl">Shop.co e-commerce</h1>
             <p>
-- Lightweight shop UI built with React and Vite.
-- Includes product pages, cart, checkout flow and utility components.
-- Uses TailwindCSS, Material UI, and Redux Toolkit for state.
+A React-based e-commerce application showcasing modern frontend development practices. Built with Vite, React Router, Redux Toolkit, Tailwind CSS, and Material UI. Implements product filtering, persistent cart state, responsive layouts, and a complete shopping experience from browsing to checkout.
             </p>
             <div className="flex gap-5">
               <Button icon={"live"}>
